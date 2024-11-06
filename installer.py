@@ -207,6 +207,7 @@ class InstallGUI:
 			Path(os.path.expanduser("~/.local/share/xfce4/terminal/colorschemes")).mkdir(parents=True, exist_ok=True)
 			Path(os.path.expanduser("~/.config/xfce4/terminal/")).mkdir(parents=True, exist_ok=True)
 			self.copy_files[running_folder+"/Extras/Chicago95.theme"] = os.path.expanduser("~/.local/share/xfce4/terminal/colorschemes")
+			self.copy_files[running_folder+"/Extras/Campbell.theme"] = os.path.expanduser("~/.local/share/xfce4/terminal/colorschemes")
 			self.copy_files[running_folder+"/Extras/terminalrc"] = os.path.expanduser("~/.config/xfce4/terminal/")
 			if os.path.exists(os.path.expanduser("~/.config/xfce4/terminal/terminalrc")):
 				shutil.copyfile(os.path.expanduser("~/.config/xfce4/terminal/terminalrc"),os.path.expanduser("~/.config/xfce4/terminal/backup.terminalrc.chicago95"))

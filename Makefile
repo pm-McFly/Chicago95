@@ -117,6 +117,7 @@ install_gtk_theme:
 	@# xfce4-terminal theme
 	${installbin} -dm0755 ${SHAREDIR}/xfce4/terminal/colorschemes
 	${installbin} -m0644 -t ${SHAREDIR}/xfce4/terminal/colorschemes ${SRCDIR}/Extras/Chicago95.theme
+	${installbin} -m0644 -t ${SHAREDIR}/xfce4/terminal/colorschemes ${SRCDIR}/Extras/Campbell.theme
 	@# panel profile
 	${installbin} -dm0755 ${SHAREDIR}/xfce4-panel-profiles/layouts
 	${installbin} -m0644 -t ${SHAREDIR}/xfce4-panel-profiles/layouts ${SRCDIR}/Extras/Chicago95_Panel_Preferences.tar.bz2
@@ -172,6 +173,7 @@ uninstall:
 		${FONTDIR}/truetype/MorePerfectDOSVGA.ttf \
 		${SHAREDIR}/lightdm-webkit/themes/Chicago95 \
 		${THEMESDIR}/Chicago95 ${SHAREDIR}/xfce4/terminal/colorschemes/Chicago95.theme \
+		${THEMESDIR}/Chicago95 ${SHAREDIR}/xfce4/terminal/colorschemes/Campbell.theme \
 		${SHAREDIR}/xfce4-panel-profiles/layouts/Chicago95_Panel_Preferences.tar.bz2 \
 		${ICONSDIR}/Chicago95 ${ICONSDIR}/Chicago95-tux \
 		${SOUNDSDIR}/Chicago95 \
