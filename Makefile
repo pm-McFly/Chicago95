@@ -169,6 +169,7 @@ uninstall:
 		${ICONSDIR}/Chicago95$(space)Standard$(space)Cursors$(space)Black \
 		${ICONSDIR}/Chicago95$(space)Standard$(space)Cursors \
 		${DOCDIR} \
+		${FONTDIR}/truetype/FixedsysExcelsiorNerdFont-Regular.ttf \
 		${FONTDIR}/truetype/LessPerfectDOSVGA.ttf \
 		${FONTDIR}/truetype/MorePerfectDOSVGA.ttf \
 		${SHAREDIR}/lightdm-webkit/themes/Chicago95 \
